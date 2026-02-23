@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated data / cache
+casaCache.json
+
+# Build / coverage outputs
+dist/
+build/
+coverage/
+
+# Temp files
+*.tmp
+*.swp
+data-generate.js

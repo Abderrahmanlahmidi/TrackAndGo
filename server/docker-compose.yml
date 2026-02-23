@@ -1,0 +1,12 @@
+services:
+  json-server:
+    build:
+      context: .
+    container_name: json-server
+    environment:
+      PORT: 3000
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./db.json:/app/db.json
+    restart: unless-stopped
