@@ -33,3 +33,5 @@ coverage/
 *.tmp
 *.swp
 data-generate.js
+package.json
+package-lock.json
